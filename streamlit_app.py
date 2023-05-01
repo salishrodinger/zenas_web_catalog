@@ -20,4 +20,4 @@ df = pandas.DataFrame(my_catalog)
 
 # put the first column into a list
 color_list = df[0].values.tolist()
-print(color_list)
+streamlit.write(print(color_list))
